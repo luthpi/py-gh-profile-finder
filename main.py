@@ -26,7 +26,7 @@ if search_input:
 # Turn the profile result to JSON
 profile = profile.json()
 
-# Check if user us found
+# Check if user is found
 # By checking "login" in the profile result
 if "login" in profile:
   # If the profile is found then
